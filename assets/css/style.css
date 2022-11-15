@@ -40,11 +40,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff014f;
+  --color-primary: #175887;
   --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
+  --color-tertiary: #05141F;
   --color-gray: #f6f6f6;
-  --color-subtitle: #f9004d;
+  --color-subtitle: #175887;
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
   --background-color-2: #212428;
   --shadow-1: 10px 10px 19px #1c1e22,
@@ -53,11 +53,11 @@
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
-  --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
+  --gradient-red-hover: linear-gradient(145deg, #175887, #4f93c4);
   --color-heading: #ffffff;
-  --color-heading-wv: #1e2125;
+  --color-heading-wv: #05141F;
   --color-body: #878e99;
-  --color-body-white: #3c3e41;
+  --color-body-white: #05141F;
   --color-lightn: #c4cfde;
   --color-midgray: #878787;
   --color-light: #E4E6EA;
@@ -16409,7 +16409,7 @@ span.sr-only {
   box-shadow: var(--shadow-1);
   padding: 30px;
   border-radius: 10px;
-  margin-left: 20px;
+
   height: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -17086,7 +17086,7 @@ span.sr-only {
 }
 .skill-style-1 li {
   text-align: center;
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-white-3);
   margin-right: 40px;
   align-items: center;
   justify-content: center;
@@ -18789,6 +18789,10 @@ body.white-version .rn-btn-ulderline {
 }
 .white-version .slide .content .inner .title span {
   color: var(--color-heading-wv);
+}
+.description-color-change {
+  color: var(--color-primary);
+  font-weight: 700;
 }
 .white-version .slide .content .inner .title span:nth-child(1) {
   color: var(--color-primary);
