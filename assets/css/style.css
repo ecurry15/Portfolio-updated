@@ -40,7 +40,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #175887;
+  --color-primary: #1463f3;
   --color-secondary: #f4f5f6;
   --color-tertiary: #05141F;
   --color-gray: #f6f6f6;
@@ -53,7 +53,7 @@
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
-  --gradient-red-hover: linear-gradient(145deg, #175887, #4f93c4);
+  --gradient-red-hover: linear-gradient(145deg, #1463f3, #4f93c4);
   --color-heading: #ffffff;
   --color-heading-wv: #05141F;
   --color-body: #878e99;
@@ -11261,6 +11261,10 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
+}
+.home__logo {
+  margin: 0;
+  color: var(--color-primary);
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
