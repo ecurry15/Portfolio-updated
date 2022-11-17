@@ -264,6 +264,7 @@ h6 a,
   color: #6c7279;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   h1,
 .h1 {
@@ -17129,7 +17130,6 @@ span.sr-only {
   border-radius: 10px;
   top: 0;
   left: 0;
-  background: linear-gradient(to right bottom, #212428, #16181c);
   opacity: 0;
   z-index: -1;
 }
@@ -19255,6 +19255,21 @@ body.white-version .rn-btn-ulderline {
 .white-version .rn-pricing-area .navigation-wrapper .nav li::before {
   background: #e3e9ec;
   color: #000;
+}
+.social-iconOne {
+  transition: 5ms all ease-in;
+}
+.linkedin >a:hover .social-iconOne {
+  filter: invert(100%) contrast(500%);
+}
+.social-iconTwo {
+  transition: 5ms all ease-in;
+}
+.facebook >a:hover .social-iconTwo {
+  filter: invert(100%) contrast(500%);
+}
+.skills-label {
+  padding-left: 10px;
 }
 .white-version .rn-pricing-area .navigation-wrapper .nav li::after {
   border-left: 10px solid transparent;
