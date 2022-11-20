@@ -19262,10 +19262,16 @@ body.white-version .rn-btn-ulderline {
 .linkedin >a:hover .social-iconOne {
   filter: invert(100%) contrast(500%);
 }
+.contact__social-btn:hover .social-iconOne {
+  filter: invert(100%) contrast(500%);
+}
 .social-iconTwo {
   transition: 5ms all ease-in;
 }
 .facebook >a:hover .social-iconTwo {
+  filter: invert(100%) contrast(500%);
+}
+.contact__social-btn:hover .social-iconTwo {
   filter: invert(100%) contrast(500%);
 }
 .skills-label {
